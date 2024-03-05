@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  width: 100%;
+}
+
+header {
+  background-image: url(/1.jpeg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: 47%;
+}
+
+.hader-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-top: 350px;
+}
+.hader-info i {
+  font-size: 50px;
+}
+
+.title {
+  font-size: 13px;
+}
+
+.button-hover {
+  border-radius: 30px;
+  width: 130px;
+  height: 40px;
+  border: 2px solid #f17c0e;
+  color: #f17c0e;
+  background: transparent;
+}
+
+.button-hover:hover {
+  background-color: #f17c0e;
+  color: white;
+}
+
+.finding-bg {
+  background-color: #f17c0e;
+}
+.finding-bg li {
+  list-style: decimal;
+  margin-top: 20px;
+}
+
+.row-card {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.row-card img {
+  width: 80%;
+  transform: translateX(15%);
+}
+
+span {
+  color: #f17c0e;
+}
+
+.tetle {
+  position: absolute;
+  bottom: 0;
+}
+
+.subtitle {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.navbar {
+  margin-top: 200px;
+}
+
+.navbar-img img {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  transform: translateX(10%);
+}
+
+.accordion-button {
+  background: black;
+  border-bottom: 2px solid white;
+  color: white;
+}
+
+.accordion-button:active {
+  background-color: #f17c0e;
+  color: wheat;
+}
+
+.accordion {
+  transform: translateX(20%);
+}
+
+.accordion-item {
+  width: 60%;
+}/*# sourceMappingURL=stayle.css.map */
